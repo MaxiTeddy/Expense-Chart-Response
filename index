@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Expenses Chart Component</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="head">
+                <div class="left">
+                    <p>My balance</p>
+                    <h3>$921.48</h3>
+                </div>
+                <div class="right">
+                    <div class="white"></div>
+                    <div class="black"></div>
+                </div>
+            </div>
+            <div class="main">
+                <h3>Spending - Last 37 days</h3>
+                <div class="charts">
+                    <div class="one">
+                        <div class="day"></div>
+                        <p>mon</p>
+                    </div>
+                    <div class="two">
+                        <div class="hide">
+                            <p>$33.81</p>
+                        </div>
+                        <div class="day"></div>
+                        <p>tue</p>
+                    </div>
+                    <div class="three">
+                        <div class="hide">
+                            <p>$52.36</p>
+                        </div>
+                        <div class="day"></div>
+                        <p>wed</p>
+                    </div>
+                    <div class="four">
+                        <div class="hide">
+                            <p>$31.07</p>
+                        </div>
+                        <div class="day"></div>
+                        <p>thu</p>
+                    </div>
+                    <div class="five">
+                        <div class="hide">
+                            <p>$24</p>
+                        </div>
+                        <div class="day"></div>
+                        <p>fri</p>
+                    </div>
+                    <div class="six">
+                        <div class="hide">
+                            <p>$46.01</p>
+                        </div>
+                        <div class="day"></div>
+                        <p>sat</p>
+                    </div>
+                    <div class="seven">
+                        <div class="hide">
+                            <p>$30.08</p>
+                        </div>
+                        <div class="day"></div>
+                        <p>sun</p>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="foot">
+                <div class="footleft">
+                    <p>Total this month</p>
+                    <h2>$478.33</h2>
+                </div>
+                <div class="footright">
+                    <h4>+2.4%</h4>
+                    <p>from last month</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

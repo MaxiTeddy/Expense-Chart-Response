@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "DM Sans", sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #f8e9dd;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    margin-top: 10%;
+}
+
+/**HEAD**/
+.head{
+    background-color: #ec775f;
+    color: #f8e9dd;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left p{
+    font-size: 12px;
+    padding-bottom: 3px;
+}
+
+/** FOR ALL H3 HEADERS**/
+h3{
+    font-size: 20px;
+}
+
+.right{
+    display: flex;
+    padding-top: 5px;
+}
+
+.white{
+    background-color: transparent;
+    border: 1.7px solid #f8e9dd;
+    height: 27px;
+    width: 27px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.black{
+    background-color: #382314;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: -14px;
+    z-index: 0;
+}
+
+/**MAIN**/
+.main{
+    background-color: white;
+    border-radius: 15px 15px 0 0;
+    padding: 20px;
+}
+
+.charts{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    color: #93867b;
+}
+
+.day{
+    background-color: #ec775f;
+    border-radius: 5px;
+    width: 40px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+
+.one .day{
+    height: 50px;
+}
+
+.one .day:hover{
+    cursor: pointer;
+    background-color: #f8b5a8;
+}
+
+.two .day{    
+    height: 100px;
+}
+
+.two .day:hover{
+    cursor: pointer;
+    background-color: #f8b5a8;
+}
+
+.three .day{
+    height: 130px;
+    background-color: #76b5bc;
+}
+
+.three .day:hover{
+    background-color: #98c2c6;
+    cursor: pointer;
+}
+
+.four .day{
+    height: 94px;
+}
+
+.four .day:hover{
+    cursor: pointer;
+    background-color: #f8b5a8;
+}
+
+.five .day{
+    height: 70px;
+}
+
+.five .day:hover{
+    cursor: pointer;
+    background-color: #f8b5a8;
+}
+
+.six .day{
+    height: 105px;
+}
+
+.six .day:hover{
+    cursor: pointer;
+    background-color: #f8b5a8;
+}
+
+.seven .day{
+    height: 80px;
+}
+
+.seven .day:hover{
+    cursor: pointer;
+    background-color: #f8b5a8;
+}
+
+hr{
+    margin: 0 20px;
+}
+
+/**FOOTER**/
+.foot{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0 0 15px 15px;
+    padding: 20px;
+    text-align: end;
+}
+
+.foot p{
+    font-size: 13px;
+    color: #93867b;
+    text-align: end;
+}
+
+.footleft p{
+    margin-right: 32px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+h4{
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+/**HOVER HIDDEN**/
+.hide{
+    opacity: 0;
+    transition: all 0.5s;
+    background-color: rgb(51, 24, 202);
+    display: none;
+}
+.hide p{
+    display:;
+}
